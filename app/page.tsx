@@ -153,7 +153,7 @@ export default function NickSuMortgagesHomepage() {
           </div>
 
           <div className="relative overflow-hidden">
-            <div className="flex gap-6 animate-[scroll_20s_linear_infinite] w-max">
+            <div className="flex gap-6 scrolling-track w-max">
               {[
                 {
                   name: 'Michael T.',
@@ -197,10 +197,15 @@ export default function NickSuMortgagesHomepage() {
         </div>
 
         <style jsx>{`
+          .scrolling-track {
+            animation: scroll 20s linear infinite;
+          }
+
           @keyframes scroll {
             0% {
               transform: translateX(0);
             }
+
             100% {
               transform: translateX(-50%);
             }
