@@ -8,7 +8,7 @@ export default function NickSuMortgagesHomepage() {
         <div className="relative max-w-7xl mx-auto px-6 py-24 lg:py-36 grid lg:grid-cols-2 gap-12 items-center">
           <div>
             <p className="uppercase tracking-[0.3em] text-sm text-gray-300 mb-4">
-              Vancouver Mortgage Advisor
+              Vancouver Mortgage broker
             </p>
 
             <h1 className="text-5xl lg:text-7xl font-light leading-tight mb-6">
@@ -35,7 +35,7 @@ export default function NickSuMortgagesHomepage() {
           <div className="flex justify-center lg:justify-end">
             <div className="relative w-[360px] h-[500px] rounded-[32px] overflow-hidden shadow-2xl border border-white/10 bg-gray-700">
               <img
-                src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1974&auto=format&fit=crop"
+                src="nick-su.png"
                 alt="Mortgage Broker"
                 className="w-full h-full object-cover"
               />
@@ -43,7 +43,7 @@ export default function NickSuMortgagesHomepage() {
               <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-6">
                 <p className="text-xl font-semibold">Nick Su</p>
                 <p className="text-gray-300 text-sm mt-1">
-                  Mortgage Advisor • British Columbia
+                  Mortgage Broker • British Columbia
                 </p>
               </div>
             </div>
@@ -155,9 +155,7 @@ export default function NickSuMortgagesHomepage() {
             financing options, and next steps.
           </p>
 
-          <button className="bg-white text-black px-10 py-5 rounded-2xl text-sm tracking-wide font-medium hover:bg-gray-200 transition">
-            Contact Nick Su
-          </button>
+
         </div>
       </section>
 
@@ -172,8 +170,8 @@ export default function NickSuMortgagesHomepage() {
           </div>
 
           <div className="text-sm text-gray-500 text-center md:text-right">
-            <p>Email: your@email.com</p>
-            <p>Phone: (604) 000-0000</p>
+            <p>Email: nick7789398818@gmail.com</p>
+            <p>Phone: (778) 939-8818</p>
           </div>
         </div>
       </footer>
