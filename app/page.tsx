@@ -139,6 +139,75 @@ export default function NickSuMortgagesHomepage() {
         </div>
       </section>
 
+      {/* Testimonials Section */}
+      <section className="py-24 bg-white overflow-hidden">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="text-center mb-16">
+            <p className="uppercase tracking-[0.3em] text-sm text-gray-500 mb-4">
+              Client Experience
+            </p>
+
+            <h2 className="text-4xl lg:text-5xl font-light">
+              Trusted Mortgage Guidance
+            </h2>
+          </div>
+
+          <div className="relative overflow-hidden">
+            <div className="flex gap-6 animate-[scroll_20s_linear_infinite] w-max">
+              {[
+                {
+                  name: 'Michael T.',
+                  text:
+                    'Nick was professional, responsive, and made the mortgage process much easier to understand. His guidance gave us confidence throughout the entire home purchase.',
+                },
+                {
+                  name: 'Sarah L.',
+                  text:
+                    'Excellent communication and very knowledgeable about financing options for self-employed clients. Highly recommend working with Nick.',
+                },
+                {
+                  name: 'David C.',
+                  text:
+                    'Nick provided clear advice, quick responses, and a smooth experience from pre-approval to closing. We truly appreciated the attention to detail.',
+                },
+                {
+                  name: 'Michael T.',
+                  text:
+                    'Nick was professional, responsive, and made the mortgage process much easier to understand. His guidance gave us confidence throughout the entire home purchase.',
+                },
+                {
+                  name: 'Sarah L.',
+                  text:
+                    'Excellent communication and very knowledgeable about financing options for self-employed clients. Highly recommend working with Nick.',
+                },
+              ].map((item, index) => (
+                <div
+                  key={index}
+                  className="min-w-[360px] max-w-[360px] bg-gray-50 border border-gray-100 rounded-[32px] p-10 shadow-sm"
+                >
+                  <p className="text-xl leading-relaxed text-gray-700 mb-8">
+                    “{item.text}”
+                  </p>
+
+                  <p className="font-semibold text-lg">{item.name}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+
+        <style jsx>{`
+          @keyframes scroll {
+            0% {
+              transform: translateX(0);
+            }
+            100% {
+              transform: translateX(-50%);
+            }
+          }
+        `}</style>
+      </section>
+
       {/* CTA Section */}
       <section className="bg-gray-950 text-white py-24">
         <div className="max-w-4xl mx-auto px-6 text-center">
